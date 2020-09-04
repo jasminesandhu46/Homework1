@@ -1,4 +1,4 @@
-# Author: Jasmine Sandhu jps6818@psu.edu
+# Author: Jasmine Sandhu jps6818@psu.ed
 
 grade1 = (input("Enter your course 1 letter grade: "))
 credit1 = (input("Enter your course 1 credit: "))

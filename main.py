@@ -93,7 +93,7 @@ else:
   print(f"Grade point for course 3 is: {gradepoint3}") 
 
 
-GPA = (float(gradepoint1) * float(credit1) + float(gradepoint2) * float(credit2) + float(gradepoint3) * float(credit3) / (float(credit1) + float(credit2) + float(credit3))) 
+GPA = (float(gradepoint1) * float(credit1) + float(gradepoint2) * float(credit2) + float(gradepoint3) * float(credit3) / (float(credit1) + float(credit2) + float(credit3)))
 print(f"Your GPA is: {GPA}")
 
  

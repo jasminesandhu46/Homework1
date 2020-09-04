@@ -1,7 +1,7 @@
-# Author: Jasmine Sandhu jps6818@psu.ed
+# Author: Jasmine Sandhu jps6818
 
-grade1 = (input("Enter your course 1 letter grade: "))
-credit1 = (input("Enter your course 1 credit: "))
+grade1 = input("Enter your course 1 letter grade: ")
+credit1 = input("Enter your course 1 credit: ")
 
 if (grade1 == "A"):
   gradepoint1 = 4.0
@@ -14,6 +14,7 @@ elif (grade1 == "B+"):
   print(f"Grade point for course 1 is: {gradepoint1}") 
 elif (grade1 == "B"):
   gradepoint1 = 3.0
+  print(f"Grade point for course 1 is: {gradepoint1}")
 elif (grade1 == "B-"):
   gradepoint1 = 2.67
   print(f"Grade point for course 1 is: {gradepoint1}") 
@@ -30,8 +31,8 @@ else:
   gradepoint1 = 0.0
   print(f"Grade point for course 1 is: {gradepoint1}") 
 
-grade2 = (input("Enter your course 2 letter grade: "))
-credit2 = (input("Enter your course 2 credit: "))
+grade2 = input("Enter your course 2 letter grade: ")
+credit2 = input("Enter your course 2 credit: ")
 
 if (grade2 == "A"):
   gradepoint2 = 4.0
@@ -61,8 +62,8 @@ else:
   gradepoint2 = 0.0
   print(f"Grade point for course 2 is: {gradepoint2}") 
 
-grade3 = (input("Enter your course 3 letter grade: "))
-credit3 = (input("Enter your course 3 credit: "))
+grade3 = input("Enter your course 3 letter grade: ")
+credit3 = input("Enter your course 3 credit: ")
 
 if (grade3 == "A"):
   gradepoint3 = 4.0

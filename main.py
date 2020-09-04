@@ -1,7 +1,7 @@
 # Author: Jasmine Sandhu jps6818
 
 grade1 = input("Enter your course 1 letter grade: ")
-credit1 = input("Enter your course 1 credit: ")
+credit1 = float(input("Enter your course 1 credit: "))
 
 if (grade1 == "A"):
   gradepoint1 = 4.0
@@ -32,7 +32,7 @@ else:
   print(f"Grade point for course 1 is: {gradepoint1}") 
 
 grade2 = input("Enter your course 2 letter grade: ")
-credit2 = input("Enter your course 2 credit: ")
+credit2 = float(input("Enter your course 2 credit: "))
 
 if (grade2 == "A"):
   gradepoint2 = 4.0
@@ -63,7 +63,7 @@ else:
   print(f"Grade point for course 2 is: {gradepoint2}") 
 
 grade3 = input("Enter your course 3 letter grade: ")
-credit3 = input("Enter your course 3 credit: ")
+credit3 = float(input("Enter your course 3 credit: "))
 
 if (grade3 == "A"):
   gradepoint3 = 4.0
@@ -94,7 +94,7 @@ else:
   print(f"Grade point for course 3 is: {gradepoint3}") 
 
 
-GPA = (float(gradepoint1) * float(credit1) + float(gradepoint2) * float(credit2) + float(gradepoint3) * float(credit3) / (float(credit1) + float(credit2) + float(credit3)))
+GPA = GPA = (gradepoint1 * credit1 + gradepoint2 * credit2 + gradepoint3 * credit3) / (credit1 + credit2 + credit3) 
 print(f"Your GPA is: {GPA}")
 
  
